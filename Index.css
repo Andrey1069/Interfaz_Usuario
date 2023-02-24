@@ -45,4 +45,48 @@ nav ul li a {
 }
 
 /*ESTILOS DEL FOOTER*/
-
+.page-footer {
+  background-color: #2196f3;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #424242;
+  color: #fff;
+  padding: 20px;
+}
+.page-footer h5 {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+.page-footer ul {
+  margin-top: 0;
+  padding-left: 0;
+}
+.page-footer ul li {
+  margin-bottom: 8px;
+  list-style-type: none;
+}
+.page-footer ul li a {
+  color: #fff;
+}
+.page-footer p {
+  margin-top: 0;
+}
+.page-footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.page-footer .grey {
+  margin-top: 0;
+}
+.page-footer .grey p {
+  margin-bottom: 0;
+}
+@media (max-width: 600px) {
+  .page-footer {
+    margin-bottom: 60px;
+  }
+}
+.page-content {
+  margin-bottom: 100px;
+}
