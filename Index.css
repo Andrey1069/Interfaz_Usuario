@@ -3,6 +3,7 @@ body {
 }
 
 
+
 /*ESTILOS DE LA NAVEGACION*/
 nav {
   background-color: #2196f3;
@@ -42,28 +43,3 @@ nav ul li a {
 .dark-mode {
   background-color: #383636;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*ESTILOS DEL FOOTER*/
-footer {
-    background-color: #eee;
-    color: #333;
-    padding: 1em;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-  }
