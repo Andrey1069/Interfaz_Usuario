@@ -33,6 +33,32 @@ nav ul li a {
   }
 }
 
+/*ESTILOS PARA EL CONTENIDO DE LA PAGINA */
+
+.news-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.news-panel {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 10px;
+  width: 400px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
 /*ESTILOS DEL BTN DE CAMBIO DE MODOS*/
 
 .fixed-action-btn {
@@ -44,10 +70,11 @@ nav ul li a {
   background-color: #383636;
 }
 
+
 /*ESTILOS DEL FOOTER*/
 .page-footer {
   background-color: #2196f3;
-  position: fixed;
+  position: relative;
   width: 100%;
   bottom: 0;
   background-color: #424242;
