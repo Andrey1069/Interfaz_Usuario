@@ -12,44 +12,75 @@
   <!--ESPACIO PARA LA NAVEGACION-->
   <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo center">Material Design Navigation</a>
+      <a href="#" class="brand-logo center">Info Code</a>
       <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Acerca</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#acerca">Acerca</a></li>
+        <li><a href="#contacto">Contacto</a></li>
       </ul>
     </div>
   </nav>
 
   <!--FUNCION Slid-->
   <ul class="sidenav" id="mobile-nav">
-    <li><a href="#">Inicio</a></li>
-    <li><a href="#">Acerca</a></li>
-    <li><a href="#">Contacto</a></li>
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#acerca">Acerca</a></li>
+    <li><a href="#contacto">Contacto</a></li>
   </ul>
- <!--ESPACIA PARA CONTENIDO DE LA PAGINA-->
 
- <div class="news-container">
-  <div class="news-panel">
-    <h2>Elon Musk anuncia nueva misión espacial</h2>
-    <img src="https://via.placeholder.com/350x200" alt="Imagen de la noticia">
-    <p>Elon Musk, CEO de SpaceX, ha anunciado el lanzamiento de una nueva misión espacial con destino a Marte. La misión, que se llevará a cabo en el año 2025, tiene como objetivo explorar el planeta rojo y buscar posibles signos de vida.</p>
-    <a href="#">Leer más</a>
-  </div>
-  <div class="news-panel">
-    <h2>Apple anuncia nuevo iPhone 14</h2>
-    <img src="https://via.placeholder.com/350x200" alt="Imagen de la noticia">
-    <p>La compañía de tecnología Apple ha anunciado el lanzamiento de su nuevo modelo de iPhone, el iPhone 14. El nuevo dispositivo cuenta con una pantalla más grande y una cámara mejorada, entre otras características.</p>
-    <a href="#">Leer más</a>
-  </div>
+ <!--ESPACIO PARA CONTENIDO DE LA PAGINA-->
+ <div class="welcome-section" id="inicio">
+  <h1 data-aos="fade-up">Bienvenido a nuestro sitio</h1>
+  <p data-aos="fade-up" data-aos-delay="300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet felis et turpis suscipit iaculis vel nec elit. Donec id elit lorem. </p>
+  <a href="#" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">Learn More</a>
 </div>
-
-
-
-
-
-
+ <!--ESPACIO PARA ABOUT DE LA PAGINA-->
+<section class="about-section" id="acerca">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="about.jpg" alt="Profile picture">
+      </div>
+      <div class="col-md-6">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod ornare odio, non efficitur purus tincidunt vel. Praesent iaculis ligula nunc, vel convallis nibh semper nec. Nullam consectetur, mauris vel bibendum rhoncus, magna risus ultrices augue, ut bibendum ex nunc id velit. Suspendisse ut blandit arcu.</p>
+        <p>Proin quis fringilla eros. Curabitur vehicula eros et nulla suscipit, quis sodales tortor bibendum. Phasellus blandit libero eu egestas ultricies. Nulla suscipit enim vel nisi porttitor, sed rutrum nulla faucibus. Duis vitae mauris vitae tellus pulvinar ultrices vel id tellus. Sed volutpat enim eget augue euismod, vel vestibulum lorem vestibulum. Praesent faucibus justo eu leo semper, a gravida magna gravida.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ <!--ESPACIO PARA CONTENIDO DE LA PAGINA-->
+<section class="contact-section" id="contacto">
+  <div class="col-md-6">
+    <h2>Contact Information</h2>
+    <p><i class="fa fa-map-marker"></i> 123 Main Street, Anytown USA 12345</p>
+    <p><i class="fa fa-phone"></i> 555-555-5555</p>
+    <p><i class="fa fa-envelope"></i> info@example.com</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" class="form-control" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</section>
 
   <!--FUNCION DEL BOTON PARA CAMBIAR DE MODO OSCURO Y MODO CLARO-->
   <div class="fixed-action-btn">
@@ -57,34 +88,9 @@
       <i class="material-icons">brightness_6</i>
     </a>
   </div>
+  
 <!--LINEAS PARA EL FOOTER-->
-<footer class="page-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col s12 m6">
-        <h5 class="white-text">Acerca de</h5>
-        <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-      <div class="col s12 m4 offset-m2">
-        <h5 class="white-text">Contactos</h5>
-        <ul>
-          <li><a class="grey-text text-lighten-3" href="#!">Phone: 555-555-5555</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Email: info@yourcompany.com</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Address: 123 Main St, Anytown USA</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="grey darken-3">
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <p class="center-align grey-text text-lighten-4">&copy; 2023 Your Company</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+
 
 <!--LINEAS PARA LOS SCRIPT-->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
